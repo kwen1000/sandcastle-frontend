@@ -107,11 +107,14 @@
       <div class="full column">
         <h1>FAQ</h1>
         <p></p>
-        <pre><span class="code-comment">### How are username and account information being handled?</span>
+        <pre><span class="code-comment">
+### How are username and account information being handled?</span>
 
 You can create as many "usernames" as you want. This is because Sandcastle does not permanently store user information. It's up to you on how to handle usernames and account information.
 
-Many application stores should allow players to backup local information to the cloud. Sandcastle at the moment relies on you using those options if you want to permanently save information. It helps make things simpler.
+Many application stores should allow players to backup local information to the cloud. If you can, proceed with that option.
+
+The only thing we require is that you provide a player ID. The player ID must be an a positive integer. It should be unique. One way to make it unique is to use timestamps. The player's ID is the exact time that they launched their game for the first time. For instance, if they launched their game on the 15th of October, 2022 11:30:45.367, then their player ID could be 15102022113045367.
 
 We plan on releasing an option for storing account information later on, especially for web-based games.
 
