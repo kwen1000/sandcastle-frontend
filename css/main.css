@@ -107,6 +107,10 @@ a.button:focus {
   color: #000000;
 }
 
+input[type=text] {
+  color: #000000;
+}
+
 p.name {
   font-family: Kumar;
   font-size: 32px;
